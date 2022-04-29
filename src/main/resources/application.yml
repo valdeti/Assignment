@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/assignment
+    username: postgres
+    password: password
+
+application:
+  security:
+    authentication:
+      jwt:
+        secret: '8b8635af9fb47ed9fe08ee2bc60f49f'
+
+springdoc:
+  swagger-ui:
+    tags-sorter: 'alpha'
+    operations-sorter: 'alpha'
